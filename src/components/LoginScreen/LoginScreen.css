@@ -1,0 +1,43 @@
+.loginCard p{
+    margin-bottom: 0px;
+}
+
+.loginCard button{
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+}
+
+.loginCard button:hover{
+    border-color: rgba(5, 145, 0, 0.973);
+    color: rgba(5, 145, 0, 0.973);
+}
+
+.loginCard input{
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    outline: 0;
+    width: 100%;
+}
+
+.registerNow{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(194, 187, 98);
+    font-size: 13px;
+}
+
+.registerNow:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: rgb(105, 100, 25);
+}

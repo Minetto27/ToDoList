@@ -1,0 +1,31 @@
+.registerCard p{
+    margin-bottom: 0px;
+}
+
+.registerCard button{
+    background-color: rgba(240, 248, 255, 0);
+    border-radius: 10px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 25px;
+    margin-bottom: 20px;
+    border-width: 1px;
+    cursor: pointer;
+    font-size: 16px;
+    display: block;
+}
+
+.registerCard button:hover{
+    border-color: rgba(5, 145, 0, 0.973);
+    color: rgba(5, 145, 0, 0.973);
+}
+
+.registerCard input{
+    border-bottom-width: 1px;
+    border-top-width: 0px;
+    border-right-width: 0px;
+    border-left-width: 0px;
+    outline: 0;
+    width: 100%;
+}
+

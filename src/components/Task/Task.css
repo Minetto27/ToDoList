@@ -1,0 +1,44 @@
+.unique-task {
+    background-color: rgba(220, 220, 220, 0);
+    margin-top: 0.5rem;
+    border-bottom-width: 1px;
+    width: 30rem;
+}
+
+.removbutton{
+    float: right;
+    border-width: 1px;
+    border-color: black;
+    background-color: rgba(255, 255, 255, 0);
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.removbutton:hover{
+    border-color: rgb(158, 0, 0);
+    color:rgb(158, 0, 0);
+   
+}
+
+.unique-task span{
+    margin-left: 0.5rem;
+}
+
+.taskAdds{
+    cursor: pointer;
+    position: absolute;
+    display: initial;
+    overflow-wrap: anywhere;
+    cursor: pointer;
+    width: 26rem;
+    flex-wrap: wrap;
+    position: relative;
+}
+
+.inpuEditTasks {
+    width: 80%;
+    border-radius: 5px;
+    border-width: 1px;
+    outline: 0;
+    font-size: 15px;
+}
